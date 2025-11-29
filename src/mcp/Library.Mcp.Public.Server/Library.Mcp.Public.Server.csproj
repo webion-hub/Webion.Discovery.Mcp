@@ -9,12 +9,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="..\..\..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\..\db\Library.Db\Library.Db.csproj" />
     </ItemGroup>
 
@@ -28,6 +22,12 @@
 
     <ItemGroup>
       <Folder Include="Resources\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>
