@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/db/">
+    <Project Path="src/db/Library.Db.Migrations/Library.Db.Migrations.csproj" />
+    <Project Path="src/db/Library.Db.Seeder/Library.Db.Seeder.csproj" />
+    <Project Path="src\db\Library.Db\Library.Db.csproj" />
+  </Folder>
+  <Folder Name="/src/mcp/">
+    <Project Path="src\mcp\Library.Mcp.Public.Server\Library.Mcp.Public.Server.csproj" />
+  </Folder>
+</Solution>
